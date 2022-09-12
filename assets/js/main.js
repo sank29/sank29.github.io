@@ -67,17 +67,3 @@ tabs.forEach((tab) => {
     tab.classList.add("qualification__active");
   });
 });
-
-/*==================== SERVICES MODAL ====================*/
-
-/*==================== PORTFOLIO SWIPER  ====================*/
-
-/*==================== TESTIMONIAL ====================*/
-
-/*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
-
-/*==================== CHANGE BACKGROUND HEADER ====================*/
-
-/*==================== SHOW SCROLL UP ====================*/
-
-/*==================== DARK LIGHT THEME ====================*/
