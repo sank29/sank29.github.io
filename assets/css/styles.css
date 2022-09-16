@@ -563,6 +563,18 @@ img {
   width: 85%;
 }
 
+.skills__management{
+  width: 80%;
+}
+
+.skills__collaboration{
+  width: 85%;
+}
+
+.skills__time{
+  width: 75%;
+}
+
 .skills__close .skills__list{
   height: 0;
   overflow: hidden;
