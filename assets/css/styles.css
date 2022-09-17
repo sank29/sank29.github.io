@@ -1289,7 +1289,8 @@ img {
   }
 
   .portfolio__img{
-    width: 320px;
+      width: 386px;
+      height: 200px;
   }
 
   .portfolio__content{
