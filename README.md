@@ -48,6 +48,6 @@
   
   # Deployed Link :-
   
-    [a link](https://sank29.github.io/)
+    https://sank29.github.io/
     
   
