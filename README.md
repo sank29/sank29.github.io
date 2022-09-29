@@ -2,7 +2,7 @@
 
   ## Tech Stacks 🛠
     
-    HTML 5, CSS, JavaScript 
+    HTML 5, CSS, Advance JavaScript
     
   
   
