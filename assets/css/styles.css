@@ -1119,9 +1119,7 @@ img {
   .testimonial__data,
   .about__description{
     text-align: center;
-  }
-
-
+  }  
 }
 
 /* For medium devices */
@@ -1157,6 +1155,8 @@ img {
     grid-template-columns: .6fr;
     justify-content: center;
   }
+
+       
 }
 
 @media screen and (min-width: 768px) {
@@ -1338,6 +1338,7 @@ img {
   .footer__copy{
     margin-top: 4.5rem;
   }
+    
 }
 
 
@@ -1390,4 +1391,162 @@ img {
   .contact__inputs{
     grid-template-columns: repeat(2,1fr);
   }
+
+   
+}
+
+
+
+/* tech stack */
+
+
+#tech {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 60px 40px;
+  /* border: 1px solid; */
+}
+
+#tech>div {
+  width: 40%;
+  /* height: 100%; */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  /* border:1px solid #dcdad0; */
+}
+
+#tech>div>img {
+  width: 70%;
+  height: 100%;
+}
+
+
+
+
+
+/* tech stack */
+
+
+@media all and (min-width: 600px) and (max-width: 1024px) {
+
+  #tabs {
+    width: 50%;
+    font-weight: 600;
+  }
+
+  #landscape {
+    height: 80vh;
+  }
+
+  #name_tag {
+    font-size: 45px;
+    font-weight: 900;
+  }
+
+  #brief>div>div:nth-child(3) {
+    width: 70%;
+  }
+
+  #brief_detail {
+    font-size: 16px;
+  }
+
+  #resume_redirect {
+    font-size: 18px;
+  }
+
+  #brief>div>img {
+    width: 10%;
+    border-radius: 100%;
+  }
+
+  .sections {
+    padding: 60px 0;
+  }
+
+  .tags {
+    font-size: 30px;
+  }
+
+  .about_the_section {
+    font-size: 17px;
+  }
+
+  #tech {
+    gap: 40px 0px;
+  }
+
+  #tech>div>img {
+    width: 90%;
+    height: 100%;
+  }
+
+  #tech>div>p {
+    font-size: 12px;
+  }
+}
+
+@media all and (min-width: 0px) and (max-width: 599px) {
+  hr {
+    border: 0.2px solid rgb(234, 233, 233);
+  }
+
+  #navbar {
+    padding-right: 0;
+  }
+
+  #name_image {
+    width: 70%;
+  }
+
+  #name_image>div {
+    width: 20%;
+  }
+
+  #name_image>p {
+    font-size: 14px;
+  }
+
+  #tabs>div {
+    display: none;
+  }
+
+  #tabs>div:last-child {
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    justify-content: flex-end;
+    /* padding-right: 10px; */
+    /* border: 1px solid ; */
+    width: 100%;
+    z-index: 1;
+  }
+
+  #tabs>div:last-child>i {
+    margin-right: 10px;
+    font-weight: 00;
+  }
+
+
+  #tech {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px 0px;
+    margin: auto;
+    /* border: 1px solid; */
+  }
+
+  #tech>div>p {
+    font-size: 12px;
+  }
+
+  #tech>div>img {
+    width: 80%;
+  }
+
 }
