@@ -214,7 +214,7 @@ let tech_stacks = [
   },
   {
     tech_name: "SpringBoot",
-    img_link: "https://miro.medium.com/max/500/1*AbiX4LwtSNozoyfypcKvEg.png",
+    img_link: "../../assets/img/spring-boot.png",
   },
   {
     tech_name: "JDBC",
