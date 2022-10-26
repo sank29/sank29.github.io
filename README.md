@@ -15,7 +15,7 @@
   
   ![about me section](https://user-images.githubusercontent.com/76080960/192851429-4cabc125-174d-466c-9ec6-2c074c9eddfb.png)
   
-  - Tech Stack Section
+  - Tech Stacks Section
   
   ![tech stack](https://user-images.githubusercontent.com/76080960/197959157-e03548ab-d8cf-4537-bde0-d5b33a64935a.png)
   
