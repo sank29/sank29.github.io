@@ -204,7 +204,7 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
 
-////////////////////////////tech stack section
+////////////////////////////tech stack section //////////////////////////
 
 let tech_stacks = [
   {
