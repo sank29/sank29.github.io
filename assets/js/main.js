@@ -250,7 +250,7 @@ let tech_stacks = [
     img_link: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
   },
   {
-    teck_name: "VS code",
+    teck_name: "VS_Code",
     img_link:
       "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png",
   },
