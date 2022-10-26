@@ -35,7 +35,7 @@
   
   ![github contribution](https://user-images.githubusercontent.com/76080960/192851849-fa8d51b5-a66d-4b30-9112-6dfaefd90e11.png)
   
-  - Contact Me Sectionn
+  - Contact Me Section
   
   ![contact me](https://user-images.githubusercontent.com/76080960/192852002-c41848b7-be2d-450b-b764-20a6d35585f8.png)
 
