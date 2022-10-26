@@ -15,6 +15,10 @@
   
   ![about me section](https://user-images.githubusercontent.com/76080960/192851429-4cabc125-174d-466c-9ec6-2c074c9eddfb.png)
   
+  - Tech Stack Section
+  
+  ![tech stack](https://user-images.githubusercontent.com/76080960/197959157-e03548ab-d8cf-4537-bde0-d5b33a64935a.png)
+  
   - Skills Section
   
   ![skills section](https://user-images.githubusercontent.com/76080960/192851549-c3d66f31-cef1-439f-bcda-c72b866262c4.png)
