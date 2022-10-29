@@ -213,7 +213,7 @@ let tech_stacks = [
       "https://drive.google.com/uc?export=view&id=10aHD66mjf5805u4IG0sHjmUBoHSSrtrZ",
   },
   {
-    tech_name: "SpringBoot",
+    tech_name: "Spring_Boot",
     img_link: "../../assets/img/spring-boot.png",
   },
   {
@@ -246,13 +246,14 @@ let tech_stacks = [
       "https://drive.google.com/uc?export=view&id=1OM8fgg4s361EblZU6k4i4DdUQ3sZxUDC",
   },
   {
-    tech_name: "GitHub",
-    img_link: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
-  },
-  {
     tech_name: "BootStrap",
     img_link: "https://avatars.githubusercontent.com/u/2918581?s=280&v=4",
   },
+  {
+    tech_name: "GitHub",
+    img_link: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+  },
+
   {
     tech_name: "VS_Code",
     img_link:
@@ -272,7 +273,7 @@ let tech_stacks = [
   },
 
   {
-    tech_name: "Eclipse",
+    tech_name: "Apache_Server",
     img_link:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Apache_HTTP_Server_Logo_%282016%29.svg/1024px-Apache_HTTP_Server_Logo_%282016%29.svg.png",
   },
