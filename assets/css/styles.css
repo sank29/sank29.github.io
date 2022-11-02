@@ -1168,6 +1168,7 @@ img {
     margin-right: auto;
   }
 
+
   body{
     margin: 0;
   }
@@ -1650,7 +1651,7 @@ header.shadow {
 }
 
 .navbar a:hover {
-  color: var(--hover);
+  color: var(--first-color)
 }
 
 #menu-icon {
