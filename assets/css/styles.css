@@ -398,7 +398,7 @@ img {
 .button--flex{
   display: inline-flex;
   align-items: center;
-
+  margin-top: 5px;
 }
 
 .button--small{
@@ -1934,6 +1934,7 @@ i {
 .portfolio-img img {
   width: 100%;
   display: block;
+  border-radius: 10px;
 }
 
 .portfolio-img img:hover {
@@ -2093,6 +2094,11 @@ form textarea {
     --medium-font: 1.2rem;
   }
 
+  .project-btns{
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+
   .bars-box h3,
   i {
     font-size: 1.5rem;
@@ -2235,3 +2241,6 @@ form textarea {
     margin-left: 25%;
   }
 }
+
+
+
