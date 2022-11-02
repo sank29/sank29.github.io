@@ -22,71 +22,47 @@
       href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
     />
 
+    <!-- Box Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/f16c32ecbc.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>Sanket Wankhede Portfolio</title>
   </head>
   <body>
     <!--==================== HEADER ====================-->
+
+    <!-- Navbar -->
     <header
-      style="background-color: rgb(214, 183, 194)"
-      class="header"
-      id="header"
+    style="background-color: rgb(214, 183, 194)"
     >
-      <nav class="nav container">
-        <a href="#" class="nav__logo">Sanket Wankhede</a>
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list grid">
-            <li class="nav__item">
-              <a href="#home" class="nav__link active-link">
-                <i class="uil uil-estate nav__icon"></i> Home
-              </a>
-            </li>
+      <a href="#" class="logo">Sanket</a>
 
-            <li class="nav__item">
-              <a href="#about" class="nav__link">
-                <i class="uil uil-user nav__icon"></i> About
-              </a>
-            </li>
+      <div class="bx bx-menu" id="menu-icon"></div>
 
-            <li class="nav__item">
-              <a href="#skills" class="nav__link">
-                <i class="uil uil-file-alt nav__icon"></i> Skills
-              </a>
-            </li>
-
-            <li class="nav__item">
-              <a href="#portfolio" class="nav__link">
-                <i class="uil uil-scenery nav__icon"></i> Projects
-              </a>
-            </li>
-
-            <li class="nav__item">
-              <a href="#contact" class="nav__link">
-                <i class="uil uil-message nav__icon"></i> Contact Me
-              </a>
-            </li>
-
-            <li class="nav__item">
-              <a
-                class="nav__link"
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a
                 download=""
                 href="/assets/pdf/Sanket_Wankhede_Resume.pdf"
               >
                 <i class="uil uil-message nav__icon"></i> Resume
-              </a>
-            </li>
-          </ul>
-          <i class="uil uil-times nav__close" id="nav-close"></i>
-        </div>
-        <div class="nav__btns">
-          <!-- Theme change button -->
-          <i class="uil uil-moon change-theme" id="theme-button"></i>
+              </a></li>
+        <!-- <div class="bx bx-moon" id="darkmode"></div> -->
+      </ul>
 
-          <div class="nav__toggle" id="nav-toggle">
-            <i class="uil uil-apps"></i>
-          </div>
-        </div>
-      </nav>
     </header>
+
+    <!-- Home -->
 
     <!--==================== MAIN ====================-->
     <main class="main">
@@ -657,35 +633,32 @@
       </section>
 
       <!--==================== PORTFOLIO ====================-->
-      <section class="portfolio section" id="portfolio">
-        <h2 class="section__title">Projects</h2>
+      <!-- Portfolio -->
+      <section class="portfolio" id="portfolio">
+         <h2 class="section__title">Projects</h2>
         <span class="section__subtitle">Most Recent Projects</span>
+        
+        <div class="portfolio-content">
 
-        <div class="portfolio__container container swiper-container">
-          <div class="swiper-wrapper">
-            <!--==================== PORTFOLIO 1====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img
-                src="assets/img/portfolio5.png"
-                alt=""
-                class="portfolio__img"
-              />
+          <div class="portfolio-img">
+            <img src="assets/img/portfolio5.png" alt="" />
 
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">GREEKBUYING CLONE</h3>
-                <p class="portfolio__description">
-                  Greekbuying is an Ecommerce website, in this project I worked
-                  with four other team members and completed project within 5
-                  days.
-                </p>
-                <p class="portfolio__description">TECH-STACK:</p>
-                <p
-                  style="font-weight: bold; color: black"
-                  class="portfolio__description"
-                >
-                  CSS | HTML | JAVASCRIPT
-                </p>
-                <a
+            <div class="project">
+              <h1>GREEKBUYING CLONE</h1>
+
+              <p>
+                Greekbuying is an Ecommerce website, in this project I worked
+                with four other team members and completed project within 5
+                days.
+              </p>
+              <p><div style="font-weight: bold; color: black;">Features:</div> Sign Up / Log In| Home Page | Add To Cart | Make Payment</p>
+              <p>
+                <div style="font-weight: bold; color: black;">Areas of Responsibility:</div> Navbar | Footer | Cart Page | Payment
+                Page
+              </p>
+              <p><div style="font-weight: bold; color: black;">Tech Stack:</div> HTML | CSS | JavaScript</p>
+
+               <a
                   href="https://iridescent-empanada-4f8c87.netlify.app/"
                   class="button button--flex button--small portfolio__button"
                   target="_blank"
@@ -699,32 +672,24 @@
                   >GitHub
                   <i class="uil uil-arrow-right button__icon"></i>
                 </a>
-              </div>
+              
             </div>
+          </div>
 
-            <!--==================== PORTFOLIO 2====================-->
+          <div class="portfolio-img">
+            <img src="assets/img/portfolio4.png" alt="" />
+            <div class="project">
+              <h1>DNA NEWS CLONE</h1>
 
-            <div class="portfolio__content grid swiper-slide">
-              <img
-                src="assets/img/portfolio4.png"
-                alt=""
-                class="portfolio__img"
-              />
-
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">DNA NEWS CLONE</h3>
-                <p class="portfolio__description">
-                  DNA News is a daily news website and we made a clone of this
+              <p>
+                DNA News is a daily news website and we made a clone of this
                   website, with four other team members within 4 days
-                </p>
-                <p class="portfolio__description">TECH-STACK:</p>
-                <p
-                  style="font-weight: bold; color: black"
-                  class="portfolio__description"
-                >
-                  CSS | HTML | JAVASCRIPT
-                </p>
-                <a
+              </p>
+              <p><div style="font-weight: bold; color: black;">Features:</div> Daily news | User friendly experience.</p>
+              <p><div style="font-weight: bold; color: black;">Areas of Responsibility:</div> Navbar | Home Page | Footer Part</p>
+              <p><div style="font-weight: bold; color: black;">Tech Stack:</div> HTML | CSS | JavaScript</p>
+
+              <a
                   href="https://cute-crepe-fbedeb.netlify.app/home"
                   class="button button--flex button--small portfolio__button"
                   target="_blank"
@@ -738,31 +703,23 @@
                   >GitHub
                   <i class="uil uil-arrow-right button__icon"></i>
                 </a>
-              </div>
             </div>
+          </div>
 
-            <!--==================== PORTFOLIO 3====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img
-                src="assets/img/portfolio6.png"
-                alt=""
-                class="portfolio__img"
-              />
+          <div class="portfolio-img">
+            <img src="assets/img/portfolio6.png" alt="" />
+            <div class="project">
+              <h1>STAR WARS(MINI-PROJECT)</h1>
 
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">STAR WARS(MINI-PROJECT)</h3>
-                <p class="portfolio__description">
-                  We can search all the characters in Star Wars with their
+              <p>
+                 We can search all the characters in Star Wars with their
                   description.
-                </p>
-                <p class="portfolio__description">TECH-STACK:</p>
-                <p
-                  style="font-weight: bold; color: black"
-                  class="portfolio__description"
-                >
-                  CSS | HTML | JAVASCRIPT
-                </p>
-                <a
+              </p>
+              <p><div style="font-weight: bold; color: black;">Features:</div> Search Star War Characters</p>
+              <p><div style="font-weight: bold; color: black;">Areas of Responsibility:</div> Home Page</p>
+              <p><div style="font-weight: bold; color: black;">Tech Stack:</div> HTML | CSS | JavaScript</p>
+
+              <a
                   href="https://lighthearted-sable-033ffd.netlify.app"
                   class="button button--flex button--small portfolio__button"
                   target="_blank"
@@ -776,19 +733,38 @@
                   >GitHub
                   <i class="uil uil-arrow-right button__icon"></i>
                 </a>
-              </div>
             </div>
           </div>
-          <!-- Add Arrows -->
-          <div class="swiper-button-next">
-            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-          </div>
-          <div class="swiper-button-prev">
-            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+
+          <div class="portfolio-img">
+            <img src="assets/img/portfolio7.png" alt="" />
+            <div class="project">
+              <h1>Calculator(MINI-PROJECT)</h1>
+
+              <p>
+                 Simple calculator made by using html, css, javaScript and you can calculate the values using this calculator.
+              </p>
+              <p><div style="font-weight: bold; color: black;">Features:</div>calculate any number</p>
+              <p><div style="font-weight: bold; color: black;">Areas of Responsibility:</div> Calculator</p>
+              <p><div style="font-weight: bold; color: black;">Tech Stack:</div> HTML | CSS | JavaScript</p>
+
+             <a
+                  href="https://gentle-dragon-7c373c.netlify.app"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                  >Live
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+                <a
+                  href="https://github.com/sank29/Calculator"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                  >GitHub
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+            </div>
           </div>
 
-          <!-- Add Pagination -->
-          <div class="swiper-pagination"></div>
         </div>
       </section>
 

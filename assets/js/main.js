@@ -184,25 +184,26 @@ const getCurrentIcon = () =>
   themeButton.classList.contains(iconTheme) ? "uil-moon" : "uil-sun";
 
 // We validate if the user previously chose a topic
-if (selectedTheme) {
-  // If the validation is fulfilled, we ask what the issue was to know if we activated or deactivated the dark
-  document.body.classList[selectedTheme === "dark" ? "add" : "remove"](
-    darkTheme
-  );
-  themeButton.classList[selectedIcon === "uil-moon" ? "add" : "remove"](
-    iconTheme
-  );
-}
 
-// Activate / deactivate the theme manually with the button
-themeButton.addEventListener("click", () => {
-  // Add or remove the dark / icon theme
-  document.body.classList.toggle(darkTheme);
-  themeButton.classList.toggle(iconTheme);
-  // We save the theme and the current icon that the user chose
-  localStorage.setItem("selected-theme", getCurrentTheme());
-  localStorage.setItem("selected-icon", getCurrentIcon());
-});
+// if (selectedTheme) {
+//   // If the validation is fulfilled, we ask what the issue was to know if we activated or deactivated the dark
+//   document.body.classList[selectedTheme === "dark" ? "add" : "remove"](
+//     darkTheme
+//   );
+//   themeButton.classList[selectedIcon === "uil-moon" ? "add" : "remove"](
+//     iconTheme
+//   );
+// }
+
+// // Activate / deactivate the theme manually with the button
+// themeButton.addEventListener("click", () => {
+//   // Add or remove the dark / icon theme
+//   document.body.classList.toggle(darkTheme);
+//   themeButton.classList.toggle(iconTheme);
+//   // We save the theme and the current icon that the user chose
+//   localStorage.setItem("selected-theme", getCurrentTheme());
+//   localStorage.setItem("selected-icon", getCurrentIcon());
+// });
 
 ////////////////////////////tech stack section //////////////////////////
 
@@ -299,3 +300,33 @@ tech_stacks.forEach((tech) => {
 
   techStackDiv.append(comp);
 });
+
+// testing js
+
+let header = document.querySelector("header");
+let menu = document.querySelector("#menu-icon");
+let navbar = document.querySelector(".navbar");
+
+window.addEventListener("scroll", () => {
+  header.classList.toggle("shadow", window.scrollY > 0);
+});
+
+menu.onclick = () => {
+  navbar.classList.toggle("active");
+};
+window.onscroll = () => {
+  navbar.classList.remove("active");
+};
+
+// Dark Mode
+let darkmode = document.querySelector("#darkmode");
+
+darkmode.onclick = () => {
+  if (darkmode.classList.contains("bx-moon")) {
+    darkmode.classList.replace("bx-moon", "bx-sun");
+    document.body.classList.add("active");
+  } else {
+    darkmode.classList.replace("bx-sun", "bx-moon");
+    document.body.classList.remove("active");
+  }
+};
