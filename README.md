@@ -13,7 +13,7 @@
 
   - About Me Section
   
-  ![about me section](https://user-images.githubusercontent.com/76080960/192851429-4cabc125-174d-466c-9ec6-2c074c9eddfb.png)
+![About section](https://user-images.githubusercontent.com/76080960/199997203-5e24588b-2762-46d3-b458-53fe82cb1d92.png)
   
   - Tech Stacks Section
   
