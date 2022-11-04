@@ -29,7 +29,7 @@
 
   - Portfolio Section 
   
-  ![Portfolio section](https://user-images.githubusercontent.com/76080960/192851781-c1141dbe-fd26-469c-b2df-b45ca2627cfe.png)
+![project section](https://user-images.githubusercontent.com/76080960/199996816-5ea76ad2-0151-458b-8420-fde832e23fd5.png)
 
   - Github Contributions Section 
   
