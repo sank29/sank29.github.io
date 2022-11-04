@@ -9,7 +9,8 @@
   ## Clone Snaps :-
   - Navbar and Main Page Section
   
-  ![Main page](https://user-images.githubusercontent.com/76080960/192849987-be2f736e-51be-4d77-8d5f-402f9e8064f5.png)
+![home section](https://user-images.githubusercontent.com/76080960/199997703-8bea5d65-5373-4943-98ff-7bd6c59898b4.png)
+
 
   - About Me Section
   
