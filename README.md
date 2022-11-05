@@ -9,11 +9,12 @@
   ## Clone Snaps :-
   - Navbar and Main Page Section
   
-  ![Main page](https://user-images.githubusercontent.com/76080960/192849987-be2f736e-51be-4d77-8d5f-402f9e8064f5.png)
+![home section](https://user-images.githubusercontent.com/76080960/199997703-8bea5d65-5373-4943-98ff-7bd6c59898b4.png)
+
 
   - About Me Section
   
-  ![about me section](https://user-images.githubusercontent.com/76080960/192851429-4cabc125-174d-466c-9ec6-2c074c9eddfb.png)
+![About section](https://user-images.githubusercontent.com/76080960/199997203-5e24588b-2762-46d3-b458-53fe82cb1d92.png)
   
   - Tech Stacks Section
   
@@ -29,7 +30,7 @@
 
   - Portfolio Section 
   
-  ![Portfolio section](https://user-images.githubusercontent.com/76080960/192851781-c1141dbe-fd26-469c-b2df-b45ca2627cfe.png)
+![project section](https://user-images.githubusercontent.com/76080960/199996816-5ea76ad2-0151-458b-8420-fde832e23fd5.png)
 
   - Github Contributions Section 
   
