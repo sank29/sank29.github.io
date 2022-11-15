@@ -1143,10 +1143,10 @@ img {
   .skills__container,
   .portfolio__content,
   .project__container,
-  .contact__container,
+  .contact__container
   .footer__container
   {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .skills__container{
@@ -1490,6 +1490,7 @@ img {
 }
 
 @media all and (min-width: 0px) and (max-width: 599px) {
+
   hr {
     border: 0.2px solid rgb(234, 233, 233);
   }
@@ -1519,8 +1520,6 @@ img {
     cursor: pointer;
     position: relative;
     justify-content: flex-end;
-    /* padding-right: 10px; */
-    /* border: 1px solid ; */
     width: 100%;
     z-index: 1;
   }
@@ -1535,7 +1534,6 @@ img {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px 0px;
     margin: auto;
-    /* border: 1px solid; */
   }
 
   #tech>div>p {
@@ -1908,7 +1906,16 @@ form textarea {
 
 }
 
+.project-btns {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  bottom: 0px;
+  position: sticky;
+  align-self: baseline;
+}
+
 /* Making Responsive */
+
 @media (max-width: 991px) {
   header {
     padding: 18px 4%;
@@ -1935,6 +1942,7 @@ form textarea {
   .project-btns{
     margin-bottom: 10px;
     margin-top: 20px;
+    
   }
 
   .bars-box h3,
