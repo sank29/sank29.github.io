@@ -286,6 +286,7 @@ img {
 .home__container{
   gap:1rem;
 }
+
 .home__content{
   grid-template-columns: .5fr 3fr;
   padding-top: 3.5rem;
@@ -1057,6 +1058,7 @@ img {
 
 }
 /*==================== MEDIA QUERIES ====================*/
+
 /* For small devices */
 @media screen and (max-width: 350px) {
 
@@ -1143,7 +1145,7 @@ img {
   .skills__container,
   .portfolio__content,
   .project__container,
-  .contact__container
+  .contact__container,
   .footer__container
   {
     grid-template-columns: repeat(1, 1fr);
@@ -1193,6 +1195,7 @@ img {
   .footer__container{
     padding: 0 1rem;
   }
+
 
 
   .nav{
@@ -1909,9 +1912,7 @@ form textarea {
 .project-btns {
   margin-bottom: 10px;
   margin-top: 20px;
-  bottom: 0px;
-  position: sticky;
-  align-self: baseline;
+
 }
 
 /* Making Responsive */
@@ -2044,7 +2045,9 @@ form textarea {
   }
 }
 
-@media (max-width: 340px) {
+/* 340px */
+
+@media (max-width: 450px) {
   :root {
     --big-font: 1.7rem;
     --medium-font: 1.1rem;
@@ -2088,6 +2091,12 @@ form textarea {
   }
 }
 
+/* @media all and (min-width: 375px) and (max-width: 700px){
+    .portfolio-content
+    .project__container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+} */
 
 
 .portfolio-img{
