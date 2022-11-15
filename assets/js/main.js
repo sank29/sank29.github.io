@@ -280,7 +280,7 @@ let tech_stacks = [
   },
 
   {
-    tech_name: "Gitlab",
+    tech_name: "Git",
     img_link: "https://www.svgrepo.com/show/364550/gitlab-logo-fill.svg",
   },
 ];
