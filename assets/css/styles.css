@@ -2045,7 +2045,7 @@ form textarea {
   }
 }
 
-/* 340px */
+
 
 @media (max-width: 450px) {
   :root {
@@ -2090,13 +2090,6 @@ form textarea {
     margin-left: 25%;
   }
 }
-
-/* @media all and (min-width: 375px) and (max-width: 700px){
-    .portfolio-content
-    .project__container {
-      grid-template-columns: repeat(3, 1fr);
-    }
-} */
 
 
 .portfolio-img{
