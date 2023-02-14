@@ -1793,9 +1793,7 @@ i {
   gap: 20px;
 }
 
-/* .btn .btn1{
-  margin-right: 10px;
-} */
+
 .portfolio-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
