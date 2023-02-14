@@ -330,3 +330,14 @@ darkmode.onclick = () => {
     document.body.classList.remove("active");
   }
 };
+
+//// contact button
+
+let contactButton = document.getElementById("contactButton");
+
+contactButton.addEventListener("submit", (event) => {
+  event.preventDefault();
+  alert("messgae sent");
+
+  console.log("hiii");
+});
