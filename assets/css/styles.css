@@ -1804,7 +1804,6 @@ i {
 .portfolio-img {
   overflow: hidden;
   border-radius: 0.5rem;
-  /* border: 1px solid  black; */
   padding: 10px;
 }
 
@@ -1863,7 +1862,7 @@ form textarea {
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   grid-gap: 20px;
   margin-top: 50px;
-  /* border: 1px solid red; */
+
 }
 
 .sub-title {
@@ -1872,7 +1871,6 @@ form textarea {
 }
 
 .services-list div {
-  /* background: #262626; */
 
   /* padding: 40px; */
   margin: auto;
