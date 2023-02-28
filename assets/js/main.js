@@ -294,7 +294,7 @@ class data {
   }
 }
 
-contactButton.addEventListener("click", (event) => {
+contactButton.addEventListener("click", async (event) => {
   let name = document.getElementById("formName").value;
   let email = document.getElementById("formEmail").value;
   let project = document.getElementById("formProject").value;
@@ -302,7 +302,36 @@ contactButton.addEventListener("click", (event) => {
 
   let allInfoOfProject = new data(name, email, project, message);
 
-  allInfoOfProject.setName("Akash");
+  let returnResponse = await sendData(allInfoOfProject);
 
-  console.log(allInfoOfProject);
+  let finalResponse = await returnResponse.json();
+
+  console.log(finalResponse);
+
+  alert(
+    `Heyy ${finalResponse.name} your response send to Sanket. We will get back to you. Thank you !!!`
+  );
+
+  // resetting the input value
+
+  document.getElementById("formName").value = "";
+  document.getElementById("formEmail").value = "";
+  document.getElementById("formProject").value = "";
+  document.getElementById("formMessage").value = "";
 });
+
+let sendData = async (data) => {
+  let url = "http://localhost:8888/sendMessage";
+
+  let returnResponse = await fetch(url, {
+    method: "POST",
+
+    headers: {
+      "Content-Type": "application/json",
+    },
+
+    body: JSON.stringify(data),
+  });
+
+  return returnResponse;
+};
