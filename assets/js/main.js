@@ -267,25 +267,29 @@ window.onscroll = () => {
 };
 
 // Dark Mode
-let darkmode = document.querySelector("#darkmode");
+// let darkmode = document.querySelector("#darkmode");
 
-darkmode.onclick = () => {
-  if (darkmode.classList.contains("bx-moon")) {
-    darkmode.classList.replace("bx-moon", "bx-sun");
-    document.body.classList.add("active");
-  } else {
-    darkmode.classList.replace("bx-sun", "bx-moon");
-    document.body.classList.remove("active");
-  }
-};
+// darkmode.onclick = () => {
+//   if (darkmode.classList.contains("bx-moon")) {
+//     darkmode.classList.replace("bx-moon", "bx-sun");
+//     document.body.classList.add("active");
+//   } else {
+//     darkmode.classList.replace("bx-sun", "bx-moon");
+//     document.body.classList.remove("active");
+//   }
+// };
 
 //// contact button
 
 let contactButton = document.getElementById("contactButton");
 
-contactButton.addEventListener("submit", (event) => {
-  event.preventDefault();
-  alert("messgae sent");
+console.log(contactButton);
 
-  console.log("hiii");
+contactButton.addEventListener("click", (event) => {
+  let name = document.getElementById("formName").value;
+  let email = document.getElementById("formEmail").value;
+  let project = document.getElementById("formProject").value;
+  let message = document.getElementById("formMessage").value;
+
+  console.log(name, email, project, message);
 });
