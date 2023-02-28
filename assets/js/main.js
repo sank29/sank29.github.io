@@ -285,11 +285,24 @@ let contactButton = document.getElementById("contactButton");
 
 console.log(contactButton);
 
+class data {
+  constructor(name, email, project, message) {
+    this.name = name;
+    this.email = email;
+    this.project = project;
+    this.message = message;
+  }
+}
+
 contactButton.addEventListener("click", (event) => {
   let name = document.getElementById("formName").value;
   let email = document.getElementById("formEmail").value;
   let project = document.getElementById("formProject").value;
   let message = document.getElementById("formMessage").value;
 
-  console.log(name, email, project, message);
+  let allInfoOfProject = new data(name, email, project, message);
+
+  allInfoOfProject.setName("Akash");
+
+  console.log(allInfoOfProject);
 });
