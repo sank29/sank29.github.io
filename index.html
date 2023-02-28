@@ -37,7 +37,7 @@
   <body>
     <!--==================== HEADER ====================-->
 
-   
+    <!-- Navbar -->
     <header
     style="background-color: rgb(214, 183, 194)"
     >
@@ -842,23 +842,23 @@
             <div class="contact__inputs grid">
               <div class="contact__content">
                 <label for="" class="contact__lable">Name</label>
-                <input type="text" class="contact__input" />
+                <input id="formName" type="text" class="contact__input" />
               </div>
 
               <div class="contact__content">
                 <label for="" class="contact__lable">Email</label>
-                <input type="email" class="contact__input" />
+                <input id="formEmail" type="email" class="contact__input" />
               </div>
             </div>
             <div class="contact__content">
               <label for="" class="contact__lable">Project</label>
-              <input type="text" class="contact__input" />
+              <input id="formProject" type="text" class="contact__input" />
             </div>
             <div class="contact__content">
               <label for="" class="contact__lable">Message</label>
               <textarea
                 name=""
-                id=""
+                id="formMessage"
                 cols="0"
                 rows="7"
                 class="contact__input"
@@ -866,7 +866,7 @@
             </div>
 
             <div>
-              <a id="contactButton" href="#" class="button button--flex">
+              <a id="contactButton" class="button button--flex">
                 Send Message
                 <i class="uil uil-message button__icon"></i>
               </a>
